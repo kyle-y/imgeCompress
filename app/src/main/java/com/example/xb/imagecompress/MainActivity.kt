@@ -3,6 +3,7 @@ package com.example.xb.imagecompress
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import java.lang.reflect.Proxy
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         // Example of a call to a native method
         sample_text.text = stringFromJNI()
+
     }
 
     /**
