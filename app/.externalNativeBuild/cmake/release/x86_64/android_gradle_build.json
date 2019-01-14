@@ -1,41 +1,2098 @@
-
 {
-	"buildFiles" : 
-	[
-		"/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/CMakeLists.txt"
-	],
-	"cleanCommands" : 
-	[
-		"/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
-	],
-	"cppFileExtensions" : [ "cpp" ],
-	"libraries" : 
-	{
-		"native-lib-Release-x86_64" : 
-		{
-			"abi" : "x86_64",
-			"artifactName" : "native-lib",
-			"buildCommand" : "/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
-			"buildType" : "release",
-			"files" : 
-			[
-				
-				{
-					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Library/Android/android-ndk-r12b/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Library/Android/android-ndk-r12b/platforms/android-21/arch-x86_64  -Dnative_lib_EXPORTS -isystem /Library/Android/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Library/Android/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Library/Android/android-ndk-r12b/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -frtti -fexceptions -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
-					"src" : "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/native-lib.cpp",
-					"workingDirectory" : "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64"
-				}
-			],
-			"output" : "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
-			"toolchain" : "13812143748302310897"
-		}
-	},
-	"toolchains" : 
-	{
-		"13812143748302310897" : 
-		{
-			"cCompilerExecutable" : "/Library/Android/android-ndk-r12b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-			"cppCompilerExecutable" : "/Library/Android/android-ndk-r12b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
-		}
-	}
+  "stringTable": {
+    "0": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64",
+    "1": "--target=x86_64-none-linux-android --gcc-toolchain=/Library/Android/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Library/Android/android-ndk-r16b/sysroot -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O3 -DNDEBUG -fPIC -DBMP_SUPPORTED -DPPM_SUPPORTED",
+    "2": "--target=x86_64-none-linux-android --gcc-toolchain=/Library/Android/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Library/Android/android-ndk-r16b/sysroot -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O3 -DNDEBUG -fPIE",
+    "3": "--target=x86_64-none-linux-android --gcc-toolchain=/Library/Android/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Library/Android/android-ndk-r16b/sysroot -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O3 -DNDEBUG -fPIE -DBMP_SUPPORTED -DGIF_SUPPORTED -DPPM_SUPPORTED -DTARGA_SUPPORTED",
+    "4": "--target=x86_64-none-linux-android --gcc-toolchain=/Library/Android/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Library/Android/android-ndk-r16b/sysroot -Dturbojpeg_EXPORTS -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O3 -DNDEBUG -fPIC -DBMP_SUPPORTED -DPPM_SUPPORTED",
+    "5": "--target=x86_64-none-linux-android --gcc-toolchain=/Library/Android/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Library/Android/android-ndk-r16b/sysroot -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O3 -DNDEBUG -fPIC",
+    "6": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jsimdcpu.asm",
+    "7": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jfdctflt-sse.asm",
+    "8": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jccolor-sse2.asm",
+    "9": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jcgray-sse2.asm",
+    "10": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jchuff-sse2.asm",
+    "11": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jcphuff-sse2.asm",
+    "12": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jcsample-sse2.asm",
+    "13": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jdcolor-sse2.asm",
+    "14": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jdmerge-sse2.asm",
+    "15": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jdsample-sse2.asm",
+    "16": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jfdctfst-sse2.asm",
+    "17": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jfdctint-sse2.asm",
+    "18": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jidctflt-sse2.asm",
+    "19": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jidctfst-sse2.asm",
+    "20": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jidctint-sse2.asm",
+    "21": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jidctred-sse2.asm",
+    "22": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jquantf-sse2.asm",
+    "23": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jquanti-sse2.asm",
+    "24": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jccolor-avx2.asm",
+    "25": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jcgray-avx2.asm",
+    "26": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jcsample-avx2.asm",
+    "27": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jdcolor-avx2.asm",
+    "28": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jdmerge-avx2.asm",
+    "29": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jdsample-avx2.asm",
+    "30": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jfdctint-avx2.asm",
+    "31": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jidctint-avx2.asm",
+    "32": "-DELF -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -DELF -D__x86_64__ -DPIC -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/nasm/ -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/ -f elf64 /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/x86_64/jquanti-avx2.asm",
+    "33": "--target=x86_64-none-linux-android --gcc-toolchain=/Library/Android/android-ndk-r16b/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Library/Android/android-ndk-r16b/sysroot -Djpeg_EXPORTS -I. -I/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp -isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -O3 -DNDEBUG -fPIC",
+    "34": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/sharedlib",
+    "35": "-isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O3 -DNDEBUG  -fPIE   -DBMP_SUPPORTED -DGIF_SUPPORTED -DPPM_SUPPORTED -DTARGA_SUPPORTED ",
+    "36": "-isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O3 -DNDEBUG  -fPIE  ",
+    "37": "-isystem /Library/Android/android-ndk-r16b/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O3 -DNDEBUG  -fPIC  ",
+    "38": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/md5"
+  },
+  "buildFiles": [
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/release/maketarball.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cmakescripts/GNUInstallDirs.cmake",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cmakescripts/cmake_uninstall.cmake.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jconfigint.h.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/CMakeLists.txt",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/CMakeLists.txt",
+    "/Library/Android/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cmakescripts/BuildPackages.cmake",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/CMakeLists.txt",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jconfig.h.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/release/libturbojpeg.pc.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjbenchtest.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjexampletest.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/CMakeLists.txt",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/release/libjpeg.pc.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/libjpeg.map.in"
+  ],
+  "cleanCommands": [
+    "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+  ],
+  "libraries": {
+    "jpegtran-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target jpegtran",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "jpegtran",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jpegtran.c",
+          "flagsOrdinal": 36,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../cdjpeg.c",
+          "flagsOrdinal": 36,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdswitch.c",
+          "flagsOrdinal": 36,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../transupp.c",
+          "flagsOrdinal": 36,
+          "workingDirectoryOrdinal": 34
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/jpegtran"
+    },
+    "rdjpgcom-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target rdjpgcom",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "rdjpgcom",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdjpgcom.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/rdjpgcom"
+    },
+    "turbojpeg-static-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target turbojpeg-static",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "turbojpeg-static",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimdcpu.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctflt-sse.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jchuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcphuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctflt-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctred-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquantf-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimd.c.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcapimin.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcapistd.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jccoefct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jccolor.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcdctmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jchuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcicc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcinit.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmainct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmarker.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmaster.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcomapi.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcparam.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcphuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcprepct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcsample.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jctrans.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdapimin.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdapistd.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatadst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatasrc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdcoefct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdcolor.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jddctmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdhuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdicc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdinput.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmainct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmarker.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmaster.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmerge.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdphuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdpostct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdsample.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdtrans.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jerror.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctflt.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctfst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctint.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctflt.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctfst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctint.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctred.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jquant1.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jquant2.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jutils.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jmemmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jmemnobs.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jaricom.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcarith.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdarith.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/turbojpeg.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/transupp.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatadst-tj.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatasrc-tj.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdbmp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdppm.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrbmp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrppm.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/libturbojpeg.a"
+    },
+    "tjexample-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target tjexample",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "tjexample",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjexample.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/tjexample"
+    },
+    "tjbench-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target tjbench",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "tjbench",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjbench.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjutil.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/tjbench"
+    },
+    "jpeg-static-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target jpeg-static",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "jpeg-static",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimdcpu.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctflt-sse.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jchuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcphuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctflt-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctred-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquantf-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimd.c.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcapimin.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcapistd.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jccoefct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jccolor.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcdctmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jchuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcicc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcinit.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmainct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmarker.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmaster.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcomapi.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcparam.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcphuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcprepct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcsample.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jctrans.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdapimin.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdapistd.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatadst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatasrc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdcoefct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdcolor.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jddctmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdhuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdicc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdinput.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmainct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmarker.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmaster.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmerge.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdphuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdpostct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdsample.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdtrans.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jerror.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctflt.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctfst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctint.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctflt.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctfst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctint.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctred.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jquant1.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jquant2.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jutils.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jmemmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jmemnobs.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jaricom.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcarith.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdarith.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/libjpeg.a"
+    },
+    "cjpeg-static-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target cjpeg-static",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "cjpeg-static",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cjpeg.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cdjpeg.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdgif.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdppm.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdswitch.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdbmp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdtarga.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/cjpeg-static"
+    },
+    "tjunittest-static-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target tjunittest-static",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "tjunittest-static",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjunittest.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjutil.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/md5.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/md5hl.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/tjunittest-static"
+    },
+    "md5cmp-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target md5cmp",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "md5cmp",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/md5cmp.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 38
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/md5.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 38
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/md5hl.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 38
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/md5/md5cmp"
+    },
+    "jpeg-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target jpeg",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "jpeg",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimdcpu.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctflt-sse.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jchuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcphuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctflt-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctred-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquantf-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-sse2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-avx2.asm.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimd.c.o",
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcapimin.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcapistd.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jccoefct.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jccolor.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcdctmgr.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jchuff.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcicc.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcinit.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcmainct.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcmarker.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcmaster.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcomapi.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcparam.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcphuff.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcprepct.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcsample.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jctrans.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdapimin.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdapistd.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdatadst.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdatasrc.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdcoefct.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdcolor.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jddctmgr.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdhuff.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdicc.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdinput.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdmainct.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdmarker.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdmaster.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdmerge.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdphuff.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdpostct.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdsample.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdtrans.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jerror.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jfdctflt.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jfdctfst.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jfdctint.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jidctflt.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jidctfst.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jidctint.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jidctred.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jquant1.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jquant2.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jutils.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jmemmgr.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jmemnobs.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jaricom.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcarith.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jdarith.c",
+          "flagsOrdinal": 37,
+          "workingDirectoryOrdinal": 34
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/libjpeg.so"
+    },
+    "jpegtran-static-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target jpegtran-static",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "jpegtran-static",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jpegtran.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cdjpeg.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdswitch.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/transupp.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/jpegtran-static"
+    },
+    "djpeg-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target djpeg",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "djpeg",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../djpeg.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../cdjpeg.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdcolmap.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdswitch.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../wrgif.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../wrppm.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../wrbmp.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../wrtarga.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/djpeg"
+    },
+    "cjpeg-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target cjpeg",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "cjpeg",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../cjpeg.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../cdjpeg.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdgif.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdppm.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdswitch.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdbmp.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../rdtarga.c",
+          "flagsOrdinal": 35,
+          "workingDirectoryOrdinal": 34
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/cjpeg"
+    },
+    "wrjpgcom-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target wrjpgcom",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "wrjpgcom",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrjpgcom.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/wrjpgcom"
+    },
+    "tjunittest-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target tjunittest",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "tjunittest",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjunittest.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjutil.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/md5.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/md5hl.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/tjunittest"
+    },
+    "tjbench-static-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target tjbench-static",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "tjbench-static",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjbench.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjutil.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/tjbench-static"
+    },
+    "jcstest-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target jcstest",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "jcstest",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/../jcstest.c",
+          "flagsOrdinal": 36,
+          "workingDirectoryOrdinal": 34
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/jcstest"
+    },
+    "djpeg-static-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target djpeg-static",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "djpeg-static",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/djpeg.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cdjpeg.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdcolmap.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdswitch.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrgif.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrppm.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrbmp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrtarga.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64/djpeg-static"
+    },
+    "turbojpeg-Release-x86_64": {
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/x86_64 --target turbojpeg",
+      "buildType": "release",
+      "toolchain": "3749832209",
+      "abi": "x86_64",
+      "artifactName": "turbojpeg",
+      "files": [
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimdcpu.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctflt-sse.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jchuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcphuff-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctflt-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctfst-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctred-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquantf-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-sse2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jccolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcgray-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jcsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdcolor-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdmerge-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jdsample-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jfdctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jidctint-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jquanti-avx2.asm.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/../../../.externalNativeBuild/cmake/release/x86_64/simd/CMakeFiles/simd.dir/x86_64/jsimd.c.o",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcapimin.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcapistd.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jccoefct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jccolor.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcdctmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jchuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcicc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcinit.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmainct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmarker.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcmaster.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcomapi.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcparam.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcphuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcprepct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcsample.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jctrans.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdapimin.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdapistd.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatadst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatasrc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdcoefct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdcolor.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jddctmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdhuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdicc.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdinput.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmainct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmarker.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmaster.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdmerge.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdphuff.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdpostct.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdsample.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdtrans.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jerror.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctflt.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctfst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jfdctint.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctflt.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctfst.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctint.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jidctred.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jquant1.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jquant2.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jutils.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jmemmgr.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jmemnobs.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jaricom.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jcarith.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdarith.c",
+          "flagsOrdinal": 33,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/turbojpeg.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/transupp.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatadst-tj.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jdatasrc-tj.c",
+          "flagsOrdinal": 4,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdbmp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/rdppm.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrbmp.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/wrppm.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/build/intermediates/cmake/release/obj/x86_64/libturbojpeg.so"
+    }
+  },
+  "toolchains": {
+    "3749832209": {
+      "cCompilerExecutable": "/Library/Android/android-ndk-r16b/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
 }

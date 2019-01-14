@@ -1,16 +1,139 @@
 {
   "buildFiles": [
-    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/CMakeLists.txt"
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/release/maketarball.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cmakescripts/GNUInstallDirs.cmake",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cmakescripts/cmake_uninstall.cmake.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jconfigint.h.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/simd/CMakeLists.txt",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/md5/CMakeLists.txt",
+    "/Library/Android/android-ndk-r16b/build/cmake/android.toolchain.cmake",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/cmakescripts/BuildPackages.cmake",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/CMakeLists.txt",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/jconfig.h.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/release/libturbojpeg.pc.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjbenchtest.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/tjexampletest.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/sharedlib/CMakeLists.txt",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/release/libjpeg.pc.in",
+    "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp/libjpeg.map.in"
   ],
   "cleanCommands": [
-    "/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+    "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
   ],
   "libraries": {
-    "native-lib-Release-armeabi-v7a": {
-      "artifactName": "native-lib",
-      "buildCommand": "/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target native-lib",
+    "turbojpeg-Release-armeabi-v7a": {
+      "artifactName": "turbojpeg",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target turbojpeg",
       "abi": "armeabi-v7a",
-      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so"
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/build/intermediates/cmake/release/obj/armeabi-v7a/libturbojpeg.so"
+    },
+    "djpeg-Release-armeabi-v7a": {
+      "artifactName": "djpeg",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target djpeg",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/djpeg"
+    },
+    "tjbench-static-Release-armeabi-v7a": {
+      "artifactName": "tjbench-static",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target tjbench-static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/tjbench-static"
+    },
+    "wrjpgcom-Release-armeabi-v7a": {
+      "artifactName": "wrjpgcom",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target wrjpgcom",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/wrjpgcom"
+    },
+    "jpeg-Release-armeabi-v7a": {
+      "artifactName": "jpeg",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target jpeg",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/libjpeg.so"
+    },
+    "djpeg-static-Release-armeabi-v7a": {
+      "artifactName": "djpeg-static",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target djpeg-static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/djpeg-static"
+    },
+    "md5cmp-Release-armeabi-v7a": {
+      "artifactName": "md5cmp",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target md5cmp",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/md5/md5cmp"
+    },
+    "tjunittest-Release-armeabi-v7a": {
+      "artifactName": "tjunittest",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target tjunittest",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/tjunittest"
+    },
+    "cjpeg-Release-armeabi-v7a": {
+      "artifactName": "cjpeg",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target cjpeg",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/cjpeg"
+    },
+    "jpeg-static-Release-armeabi-v7a": {
+      "artifactName": "jpeg-static",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target jpeg-static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/libjpeg.a"
+    },
+    "jpegtran-Release-armeabi-v7a": {
+      "artifactName": "jpegtran",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target jpegtran",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/jpegtran"
+    },
+    "jcstest-Release-armeabi-v7a": {
+      "artifactName": "jcstest",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target jcstest",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/jcstest"
+    },
+    "turbojpeg-static-Release-armeabi-v7a": {
+      "artifactName": "turbojpeg-static",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target turbojpeg-static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/libturbojpeg.a"
+    },
+    "tjunittest-static-Release-armeabi-v7a": {
+      "artifactName": "tjunittest-static",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target tjunittest-static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/tjunittest-static"
+    },
+    "tjbench-Release-armeabi-v7a": {
+      "artifactName": "tjbench",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target tjbench",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/tjbench"
+    },
+    "jpegtran-static-Release-armeabi-v7a": {
+      "artifactName": "jpegtran-static",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target jpegtran-static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/jpegtran-static"
+    },
+    "tjexample-Release-armeabi-v7a": {
+      "artifactName": "tjexample",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target tjexample",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/tjexample"
+    },
+    "rdjpgcom-Release-armeabi-v7a": {
+      "artifactName": "rdjpgcom",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target rdjpgcom",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/rdjpgcom"
+    },
+    "cjpeg-static-Release-armeabi-v7a": {
+      "artifactName": "cjpeg-static",
+      "buildCommand": "/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a --target cjpeg-static",
+      "abi": "armeabi-v7a",
+      "output": "/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi-v7a/cjpeg-static"
     }
   }
 }

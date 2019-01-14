@@ -1,15 +1,20 @@
-Executable : /Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+Executable : /Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app
+-H/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/src/main/cpp
 -B/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/.externalNativeBuild/cmake/release/armeabi
 -DANDROID_ABI=armeabi
 -DANDROID_PLATFORM=android-14
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/app/build/intermediates/cmake/release/obj/armeabi
 -DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=/Library/Android/android-ndk-r12b
+-DANDROID_NDK=/Library/Android/android-ndk-r16b
 -DCMAKE_CXX_FLAGS=-frtti -fexceptions
--DCMAKE_TOOLCHAIN_FILE=/Library/Android/sdk/cmake/3.6.4111459/android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
--GAndroid Gradle - Ninja
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=armeabi
+-DCMAKE_SYSTEM_VERSION=14
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=/Library/Android/android-ndk-r16b
+-DCMAKE_TOOLCHAIN_FILE=/Library/Android/android-ndk-r16b/build/cmake/android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 jvmArgs : 
 
