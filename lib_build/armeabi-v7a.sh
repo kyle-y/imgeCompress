@@ -15,7 +15,7 @@ export CFLAGS="-march=armv7-a -mfloat-abi=softfp -fprefetch-loop-arrays \
 export LDFLAGS=-pie
 TOOLCHAIN=${NDK_PATH}/toolchains/${HOST}-${TOOLCHAIN_VERSION}/prebuilt/${BUILD_PLATFORM}
 
-#cd {/Users/yuexiaobo/android/AndroidStudioProjects/self/imgeCompress/toolchain.cmake}
+cd /lib_build
 
 cat <<EOF >toolchain.cmake
 set(CMAKE_SYSTEM_NAME Linux)
@@ -26,7 +26,7 @@ EOF
 
 cmake -G"Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake \
   -DCMAKE_POSITION_INDEPENDENT_CODE=1 \
-  [additional CMake flags] app/src/main/cpp
+  [additional CMake flags] ../app/src/main/cpp
 make
 
 #If building for Android 4.0.x (API level < 16) or earlier,
