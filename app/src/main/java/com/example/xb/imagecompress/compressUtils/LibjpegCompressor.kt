@@ -4,6 +4,6 @@ import android.graphics.Bitmap
 
 object LibjpegCompressor {
     init{
-        System.loadLibrary("libjpeg")
+        System.loadLibrary("jpeg")
     }
 }

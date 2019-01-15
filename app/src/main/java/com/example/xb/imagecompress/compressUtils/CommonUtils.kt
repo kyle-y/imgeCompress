@@ -2,9 +2,9 @@ package com.example.xb.imagecompress.compressUtils
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import java.io.ByteArrayInputStream
-import java.io.ByteArrayOutputStream
-import java.io.File
+import android.os.Build
+import top.zibin.luban.turbo.TurboCompressor
+import java.io.*
 
 
 object CommonUtils {
@@ -45,8 +45,16 @@ object CommonUtils {
     }
 
 
-    fun compressBySize() {
-
+    fun compressByQuality(bitmap: Bitmap, quality : Int, outFilePath : String){
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.N){
+            val file = File(outFilePath)
+            if (!file.exists()) file.mkdir()
+            val fileOutputStream = FileOutputStream(file)
+            bitmap.compress(Bitmap.CompressFormat.JPEG, quality, fileOutputStream)
+            fileOutputStream.flush()
+        }else{
+            TurboCompressor.compress(bitmap, quality, outFilePath)
+        }
     }
 
     /**
